@@ -1,0 +1,181 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif !important;
+  background-color: #ffffff;
+}
+
+ul {
+  padding: 0;
+}
+
+/* CÓDIGO */
+main {
+  background-color: #F9F9F9;
+  max-width: 428px;
+  width: 100%;
+  margin: 16px auto;
+  padding: 32px 0px;
+  border-radius: 8px;
+}
+
+.container {
+  width: 280px;
+  margin: 0px auto;
+}
+
+header {
+  text-align: center;
+  position: relative;
+}
+
+header img{
+  width: 150px;
+}
+
+header h2 {
+  font-size: 16px;
+}
+
+header .status {
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  border-width: 5px;
+  background-color: orange;
+
+  position: absolute;
+  bottom: 40px;
+  right: 90px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+
+.buttons a {
+  width: 248px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+a.insta {
+  background-color: #401682;
+}
+
+a.linkedin {
+  background-color: #0762F1;
+}
+
+a.zap {
+  background-color: #27C566;
+}
+
+.formulario{
+  margin-top: 40px
+}
+
+.formulario h3{
+  color: #444343;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px
+}
+
+.grupo-input input,
+.grupo-input textarea {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #7F7F7F;
+  padding: 8px;
+  width: 262px;
+  min-height: 32px;
+  resize: none;
+}
+
+.grupo-input label{
+  color: #7F7F7F;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+form button{
+  background-color: #27C566;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 16px;
+  border: none;
+  font-family: 'Inter';
+}
+
+.customize{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #cb3e01;
+  padding: 20px;
+}
+
+.customize > div{
+  display: flex;
+  flex-direction: column; /* vertical */
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+
+.esconderSenha {
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: #b84c4c;
+  color: whitesmoke;
+}
+
+
+.cadastro {
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: #69af64;
+  color: whitesmoke;
+}
+#esconderDiv{
+  display:none;
+
+}
+
+#esconderCadastro{
+  display: none;
+}
+
+#login_error{
+  display: none;
+}
+
+.login_errorC {
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: black;
+  background-color: #af4646;
+  color: whitesmoke;
+}
